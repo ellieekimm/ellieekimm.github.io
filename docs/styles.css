@@ -1,3 +1,4 @@
+
 html{
     background-color: #011F3F;
     font-family: 'Press Start 2P';
@@ -16,7 +17,7 @@ h2{
 }
 #text-box{
     height: 300px;
-    background-color: rgb(88, 87, 87);
+    background-color: rgb(196, 193, 193);
     margin-left: 15%;
     width: 70%;
     border-radius: 50px;
@@ -30,10 +31,26 @@ h2{
     text-align: center;
     margin-bottom: 30px;
     background-color: green;
-    height: 50px;
+    height: 75px;
     width: 20%;
     margin-left: 40%;
     border: 10px solid black;
+    font-size: 20px;
+    color: black;
+    font-family: 'Press Start 2P';
+}
+#baconButtonDuring{
+    background-color: rgb(236, 159, 159);
+}
+#baconButtonGo{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: red;
+    height: 50px;
+    width: 20%;
+    margin-left: 40%;
+    border: 10px solid antiquewhite;
 }
 #bacon-text{
     color: white;
@@ -60,4 +77,13 @@ h2{
 .congrats{
     background-color: green;
     opacity: 0.8;
+}
+.correct-letter{
+    color: white;
+}
+.incorrect-letter{
+    color: red;
+}
+.correct-char{
+    color: green;
 }

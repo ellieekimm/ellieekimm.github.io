@@ -81,9 +81,14 @@ h2{
 .correct-letter{
     color: white;
 }
-.incorrect-letter{
+#incorrect{
     color: red;
 }
-.correct-char{
+.correct{
     color: green;
+}
+.finalmessage{
+    font-family: 'Press Start 2P';
+    color: black;
+    font-size: 22px;
 }
